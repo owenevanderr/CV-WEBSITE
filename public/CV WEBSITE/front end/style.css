@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Lato:wght@300&family=Reggae+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Lato:wght@400;900&family=Reggae+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Lato:wght@700&family=Reggae+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Lato:wght@900&family=Reggae+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #090042;
+  padding-top: 200px;
+}
+
+.about {
+  background-color: #333970;
+  min-height: 60vh;
+  color: white;
+}
+
+.info {
+  font-size: 21px;
+  display: flex;
+  justify-content: center;
+}
+
+.introduceInfo {
+  width: 70%;
+}
+
+.hobby {
+  background-color: #333970;
+  min-height: 80vh;
+  color: white;
+  padding-top: 40px;
+}
+
+.skill {
+  background-color: #090042;
+  min-height: 90vh;
+  color: white;
+  padding-top: 60px;
+}
+
+.contact{
+    background-color: #333970;
+    min-height: 50vh;
+    color: white;
+    padding-top: 120px;
+}
+
+.footer{
+    background-color:#090042;
+    min-height: 50vh;
+    color: white;
+    padding-top: 30px;
+}
+
+@media all and (max-width:990px){
+    .sosmed{
+        display: flex;
+        align-items:flex-start ;
+    }
+
+    .contact{
+        padding-bottom: 100px;
+    }
+}
